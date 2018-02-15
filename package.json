@@ -1,0 +1,25 @@
+{
+  "name": "open-google",
+  "version": "1.0.0",
+  "description": "Open a Google search from node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knutakir/open-google.git"
+  },
+  "keywords": [
+    "open",
+    "google",
+    "search",
+    "node"
+  ],
+  "author": "Knut Kirkhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knutakir/open-google/issues"
+  },
+  "homepage": "https://github.com/Knutakir/open-google#readme"
+}
