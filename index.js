@@ -2,7 +2,17 @@
 const exec = require('child_process').exec;
 
 module.exports = (search) => {
-    exec(`start https://www.google.com/search?q=${search}`, (err, stdout, stderr) => {
+    // TODO: use `%20` for space instead of `+` ?
+    search = search.replace(' ', '+'); // TODO: replace other strings than space
+    
+    // Default command for linux
+    let command = 'xdg-open';
+
+    if (process.platform === 'win32') {
+        command = 'start';
+    }
+
+    exec(`${command} https://www.google.com/search?q=${search}`, (err, stdout, stderr) => {
         if (err || stderr) {
             throw new Error('Could not open Google');
         }

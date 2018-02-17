@@ -4,7 +4,7 @@
   "description": "Open a Google search from node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Knutakir/open-google/issues"
   },
-  "homepage": "https://github.com/Knutakir/open-google#readme"
+  "homepage": "https://github.com/Knutakir/open-google#readme",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
 }
