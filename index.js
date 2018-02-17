@@ -10,6 +10,8 @@ module.exports = (search) => {
 
     if (process.platform === 'win32') {
         command = 'start';
+    } else if (process.platform === 'darwin') {
+        command = 'open';
     }
 
     exec(`${command} https://www.google.com/search?q=${search}`, (err, stdout, stderr) => {
