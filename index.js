@@ -1,10 +1,10 @@
 'use strict';
-const exec = require('child_process').exec;
+const {exec} = require('child_process');
 
-module.exports = (search) => {
+module.exports = search => {
     // TODO: use `%20` for space instead of `+` ?
     search = search.replace(' ', '+'); // TODO: replace other strings than space
-    
+
     // Default command for linux
     let command = 'xdg-open';
 
@@ -19,4 +19,4 @@ module.exports = (search) => {
             throw new Error('Could not open Google');
         }
     });
-}
+};
