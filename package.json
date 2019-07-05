@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/Knutakir/open-google#readme",
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^2.1.0"
   }
 }
