@@ -17,5 +17,8 @@ openGoogle('Knut Kirkhorn');
 ### openGoogle(search)
 Opens the webpage for the Google result of the search.
 
+## Related
+- [open-google-cli](https://github.com/Knutakir/open-google-cli) - CLI for this module
+
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
