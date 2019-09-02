@@ -24,5 +24,8 @@
   "homepage": "https://github.com/Knutakir/open-google#readme",
   "devDependencies": {
     "ava": "^2.3.0"
+  },
+  "dependencies": {
+    "querystring": "^0.2.0"
   }
 }

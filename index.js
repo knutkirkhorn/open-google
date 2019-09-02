@@ -1,9 +1,9 @@
 'use strict';
+const querystring = require('querystring');
 const {exec} = require('child_process');
 
 module.exports = search => {
-    // TODO: use `%20` for space instead of `+` ?
-    search = search.replace(' ', '+'); // TODO: replace other strings than space
+    search = querystring.escape(search);
 
     // Default command for linux
     let command = 'xdg-open';
