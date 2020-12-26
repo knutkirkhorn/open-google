@@ -1,5 +1,5 @@
-import test from 'ava';
-import openGoogle from '.';
+const test = require('ava');
+const openGoogle = require('.');
 
 test('dont throw exception', t => {
     t.notThrows(() => {
