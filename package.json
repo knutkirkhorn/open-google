@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/Knutakir/open-google#readme",
   "devDependencies": {
-    "ava": "^3.14.0"
+    "ava": "^3.14.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
   },
   "dependencies": {
     "querystring": "^0.2.0"

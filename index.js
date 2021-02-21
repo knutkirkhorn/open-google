@@ -1,8 +1,10 @@
 'use strict';
+
 const querystring = require('querystring');
 const {exec} = require('child_process');
 
 module.exports = search => {
+    // eslint-disable-next-line no-param-reassign
     search = querystring.escape(search);
 
     // Default command for linux
