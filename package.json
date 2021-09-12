@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Knutakir/open-google.git"
+    "url": "git+https://github.com/knutkirkhorn/open-google.git"
   },
   "keywords": [
     "open",
@@ -24,9 +24,9 @@
   "author": "Knut Kirkhorn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Knutakir/open-google/issues"
+    "url": "https://github.com/knutkirkhorn/open-google/issues"
   },
-  "homepage": "https://github.com/Knutakir/open-google#readme",
+  "homepage": "https://github.com/knutkirkhorn/open-google#readme",
   "devDependencies": {
     "ava": "^3.15.0",
     "eslint": "^7.24.0",

@@ -1,4 +1,4 @@
-# open-google [![Build Status](https://travis-ci.org/Knutakir/open-google.svg?branch=master)](https://travis-ci.org/Knutakir/open-google)
+# open-google [![Build Status](https://travis-ci.org/knutkirkhorn/open-google.svg?branch=master)](https://travis-ci.org/knutkirkhorn/open-google)
 > Open a Google search from node
 
 ## Installation
@@ -18,7 +18,7 @@ openGoogle('Knut Kirkhorn');
 Opens the webpage for the Google result of the search.
 
 ## Related
-- [open-google-cli](https://github.com/Knutakir/open-google-cli) - CLI for this module
+- [open-google-cli](https://github.com/knutkirkhorn/open-google-cli) - CLI for this module
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
