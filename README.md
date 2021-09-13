@@ -1,4 +1,4 @@
-# open-google [![Build Status](https://travis-ci.org/knutkirkhorn/open-google.svg?branch=master)](https://travis-ci.org/knutkirkhorn/open-google)
+# open-google
 > Open a Google search from node
 
 ## Installation
