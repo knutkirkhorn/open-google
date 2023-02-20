@@ -1,5 +1,5 @@
-const test = require('ava');
-const openGoogle = require('.');
+import test from 'ava';
+import openGoogle from './index.js';
 
 test('dont throw exception', t => {
     t.notThrows(() => {

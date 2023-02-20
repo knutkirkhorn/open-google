@@ -1,4 +1,4 @@
 import {expectType} from 'tsd';
-import openGoogle = require('.');
+import openGoogle from './index.js';
 
 expectType<void>(openGoogle('Knut Kirkhorn'));

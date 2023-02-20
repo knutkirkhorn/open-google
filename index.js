@@ -1,9 +1,7 @@
-'use strict';
+import querystring from 'querystring';
+import {exec} from 'child_process';
 
-const querystring = require('querystring');
-const {exec} = require('child_process');
-
-module.exports = search => {
+export default function openGoogle(search) {
     // eslint-disable-next-line no-param-reassign
     search = querystring.escape(search);
 
@@ -21,4 +19,4 @@ module.exports = search => {
             throw new Error('Could not open Google');
         }
     });
-};
+}

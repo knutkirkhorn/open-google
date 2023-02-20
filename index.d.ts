@@ -8,6 +8,4 @@ import openGoogle from 'open-google';
 openGoogle('Knut Kirkhorn');
 ```
 */
-declare function openGoogle(search: string): void;
-
-export = openGoogle;
+export default function openGoogle(search: string): void;

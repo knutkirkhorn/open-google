@@ -5,13 +5,13 @@
 ## Installation
 
 ```
-$ npm install open-google
+npm install open-google
 ```
 
 ## Usage
 
 ```js
-const openGoogle = require('open-google');
+import openGoogle from 'open-google';
 
 openGoogle('Knut Kirkhorn');
 ```
